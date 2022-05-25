@@ -1,6 +1,6 @@
 # NY Citibike with Tableau
 
-## Overview of Our Analysis
+## Overview of Analysis
 
 ### To determine the viability of implementing a bike-sharing program in Des Moines, Iowa by conducting an analysis using Tableau; filtering by user type, gender, weekday and hourly usage rates to create a coheshive ``story`` and buisness strategy for potential investors. 
 
