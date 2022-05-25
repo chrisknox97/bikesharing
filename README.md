@@ -17,6 +17,8 @@
 ### Finally, we exported the file as a ``csv`` for use in ``Tableau`` while dropping our ``Index``.
 
     citibike_df.to_csv("NYC_Citibike_Challenge.csv", index = False)
+     
+### The Jupyter Notebook used to write this code can be found [here.](https://github.com/chrisknox97/bikesharing/blob/main/NYC_Citibike_Challenge.ipynb)    
   
 ## Results: Tableau
 
@@ -63,6 +65,10 @@
 #### Our Last Visulaization created a heatmap that looked at both ``Gender`` and ``Weekday`` usage within the context of User Type. This heatmap founc that both ``Male`` and ``Female`` Users used the bike-sharing program signifcantly more if they were a ``Subscriber`` rather than a ``Customer``. Again, the ``Unknown`` gender type did not necessarily follow this pattern, but this again could be attributed to its lower sample size. 
 
 ![Deliverable7](https://github.com/chrisknox97/bikesharing/blob/main/PNGs/User%20Trips%20By%20Gender%20By%20Weekday.png)
+
+### Tableau Public Dashboard Link
+
+#### The Link to My Public Tableau Public Dashboard can be found [here.](https://public.tableau.com/app/profile/chris7026/viz/NYCCitibikes_16534370029480/NYCCitibikes)
 
 ## Summary
 
