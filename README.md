@@ -88,5 +88,5 @@
 
 #### While this is a good start for our analysis, there are additional visualizations we can create to further our research and understanding; a couple of potental charts can be found listed below. 
 
-* A Line Chart Showing Checkout Times For Users Throughout The Year To Show How Ridership Differs During The Seasons
-* A Pie Chart Showing What The Proportion of Users' Age Ranges To Compare Against the Average Age of a Given Region's Households
+* A Line Chart Showing Checkout Times For Users Throughout The Year (To Show How Ridership Differs During The Seasons)
+* A Pie Chart Showing The Proportion of Users' Age Ranges (To Compare Against the Average Age of a Given Region's Households)
