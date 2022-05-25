@@ -50,6 +50,7 @@
 
 #### User Trips By Gender By Weekday
 
+##### Our Last Visulaization created a heatmap that looked at both ``Gender`` and ``Weekday`` usage within the context of User Type. This heatmap founc that both ``Male`` and ``Female`` Users used the bike-sharing program signifcantly more if they were a ``Subscriber`` rather than a ``Customer``. Again, the ``Unknown`` gender type did not necessarily follow this pattern, but this again could be attributed to its lower sample size. 
 
 ## Summary
 
