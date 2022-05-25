@@ -66,9 +66,27 @@
 
 ![Deliverable7](https://github.com/chrisknox97/bikesharing/blob/main/PNGs/User%20Trips%20By%20Gender%20By%20Weekday.png)
 
-### Tableau Public Dashboard Link
+### Tableau Story
 
-#### The Link to My Public Tableau Public Dashboard can be found [here.](https://public.tableau.com/app/profile/chris7026/viz/NYCCitibikes_16534370029480/NYCCitibikes)
+#### For future reference, this analysis is also listed in my Tableau ``Story`` found on my Tableau Public Dashboard. The Link to My Tableau Public Dashboard can be found [here.](https://public.tableau.com/app/profile/chris7026/viz/NYCCitibikes_16534370029480/NYCCitibikes)
 
 ## Summary
 
+### Analysis
+
+#### Looking at our Tableau Visualizations we can infer the following conclusions: 
+
+* Men Tend to Use Bike-Sharing Programs Signifcantly More Than Women.
+* During the Week, Ridership Is Greatest During Times That Correlate With Job Commutes.
+* During the Weekend, Ridership Is Spread Out Amongst The Middle of the Day and Ridership Begins To Spike Later. 
+* Gender Does Not Play a Significant Role in Ridership
+* Trip Durations Peak at 5 Minutes and Decline Therafter Suggesting Most Users Use The Program For Short Distances. 
+* The Majority of Users Are Subscribers Rather Than Customers
+* Subscribers Are More Likely To Use Bike-Sharing During Peak Periods
+
+### Additional Visualizations
+
+#### While this is a good start for our analysis, there are additional visualizations we can create to further our research and understanding; a couple of potental charts can be found listed below. 
+
+* A Line Chart Showing Checkout Times For Users Throughout The Year To Show How Ridership Differs During The Seasons
+* A Pie Chart Showing What The Proportion of Users' Age Ranges To Compare Against the Average Age of a Given Region's Households
