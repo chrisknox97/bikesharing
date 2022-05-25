@@ -10,7 +10,7 @@
 
     citibike_df["tripduration"] =pd.to_datetime(citibike_df["tripduration"]. unit = "s")
 
-### In addition, the file also assigned numerical values to ``Gender`` which had to be replaced with line strings based on their repective values. 
+### In addition, the file also assigned numerical values to ``Gender`` which had to be replaced with line strings based on their respective values. 
 
     citibike_df["gender"].replace([0,1,2].["Unknown", "Male", "Female"], inplace = True)
     
@@ -26,13 +26,13 @@
 
 ### Customer Type
                         
-#### Our First Visualization Focused nn the types of users Using Citibike's Bike-Sharing Program. By Creating a Pie Chart we were able to easily see that the vast majority of users were ``Subscribers`` (1,900,359) rather than ``Customers`` (443,865). 
+#### Our First Visualization Focused on the types of users Using Citibike's Bike-Sharing Program. By Creating a Pie Chart we were able to easily see that the vast majority of users were ``Subscribers`` (1,900,359) rather than ``Customers`` (443,865). 
 
 ![Deliverable1](https://github.com/chrisknox97/bikesharing/blob/main/PNGs/Customer%20Type.png)
 
 ### August Peak Hours
 
-#### Our Second Visulaization sought to determine what times of the day featured Peak Ridership. Through the creation of a horizontal bar chart, we found that overage Citibike Usage was Lowest During the first four hours of a given day. In addition, the program hit its first peak usage during the day's 8th hour, while hitting another peak in its 17th hour. Overall, the chart showed the usage was genrally high throughout the day, with the only exception remaining its first four hours. 
+#### Our Second Visulaization sought to determine what times of the day featured Peak Ridership. Through the creation of a horizontal bar chart, we found that Citibike Usage was lowest during the first four hours of a given day. In addition, the program hit its first peak usage during the day's 8th hour, while hitting another peak in its 17th hour. Overall, the chart showed the usage was generally high throughout the day, with the only exception remaining its first four hours. 
 
 ![Deliverable2](https://github.com/chrisknox97/bikesharing/blob/main/PNGs/August%20Peak%20Hours.png)
 
@@ -50,7 +50,7 @@
 
 ### Trips By Weekday Per Hour
 
-#### Another area of interest was what role the time of day, and the day of the week itself, played in rider usage. As a result, we created a heatmap which showed that the heaviest usage of Citibikes during Weekdays (Monday-Thursday) occured around 8 AM and 5-6PM; persumably due to riders commuting to and from work. While on the weekedns, (Friday-Sunday) there was a wider range of usage starting later in the day, This may be due toriders not having to wake up as early to get to work, and the added free time the weekend affords most users. 
+#### Another area of interest was what role the time of day, and the day of the week itself, played in rider usage. As a result, we created a heatmap which showed that the heaviest usage of Citibikes during Weekdays (Monday-Thursday) occured around 8 AM and 5-6PM; persumably due to riders commuting to and from work. While on the weekends, (Friday-Sunday) there was a wider range of usage starting later in the day, This may be due to riders not having to wake up as early to get to work, and the added free time the weekend affords most users. 
 
 ![Deliverable5](https://github.com/chrisknox97/bikesharing/blob/main/PNGs/Trips%20By%20Weekday%20Per%20Hour.png)
 
@@ -62,7 +62,7 @@
 
 ### User Trips By Gender By Weekday
 
-#### Our Last Visulaization created a heatmap that looked at both ``Gender`` and ``Weekday`` usage within the context of User Type. This heatmap founc that both ``Male`` and ``Female`` Users used the bike-sharing program signifcantly more if they were a ``Subscriber`` rather than a ``Customer``. Again, the ``Unknown`` gender type did not necessarily follow this pattern, but this again could be attributed to its lower sample size. 
+#### Our Last Visulaization created a heatmap that looked at both ``Gender`` and ``Weekday`` usage within the context of User Type. This heatmap found that both ``Male`` and ``Female`` Users used the bike-sharing program signifcantly more if they were a ``Subscriber`` rather than a ``Customer``. Again, the ``Unknown`` gender type did not necessarily follow this pattern, but this again could be attributed to its lower sample size. 
 
 ![Deliverable7](https://github.com/chrisknox97/bikesharing/blob/main/PNGs/User%20Trips%20By%20Gender%20By%20Weekday.png)
 
@@ -76,7 +76,7 @@
 
 #### Looking at our Tableau Visualizations we can infer the following conclusions: 
 
-* Men Tend to Use Bike-Sharing Programs Signifcantly More Than Women.
+* Men Tend to Use Citibike Bike-Sharing Programs Signifcantly More Than Women.
 * During the Week, Ridership Is Greatest During Times That Correlate With Job Commutes.
 * During the Weekend, Ridership Is Spread Out Amongst The Middle of the Day and Ridership Begins To Spike Later. 
 * Gender Does Not Play a Significant Role in Ridership
